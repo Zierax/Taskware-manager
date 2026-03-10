@@ -22,7 +22,7 @@ sudo apt install strace
 
 ### 4. High CPU Usage
 **Cause**: Polling `/proc/` rapidly for hundreds of processes, especially with YARA memory scanning active, can be resource-intensive.
-**Solution**: Increase the polling interval in `taskware/config.py` (if configurable) or limit memory scanning exclusively to processes flagged by heuristics, rather than all processes.
+**Solution**: Increase the polling interval in `taskware/config.py` or limit memory scanning exclusively to processes flagged by heuristics, rather than all processes.
 
 ### 5. Cannot Dump Memory
 **Cause 1**: Not running as root. (See issue #1)
@@ -31,3 +31,4 @@ sudo apt install strace
 ```bash
 echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 ```
+
