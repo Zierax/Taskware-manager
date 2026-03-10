@@ -1,7 +1,10 @@
 # Taskware Manager
 
 **Malware-Centric Process Monitor for Linux**
-100% Offline — Live Malware Analysis & Threat Hunting
+100% Offline, Live Malware Analysis & Threat Hunting
+
+![Taskware Demo](assets/gif.gif)
+
 
 Taskware Manager is an advanced, offline process monitoring and malware analysis tool designed exclusively for Linux systems. It leverages a combination of YARA rules, machine-learning-based system call analysis (via `strace`), and heuristic behavioral monitoring to identify potential threats, abnormal activities, and malware execution in real-time.
 
@@ -61,4 +64,5 @@ For complete details on configuring, using, and extending Taskware Manager, plea
 - [Detection Engine & YARA](docs/detection.md)
 - [Machine Learning Module](docs/ml_analysis.md)
 - [Troubleshooting](docs/troubleshooting.md)
+
 
