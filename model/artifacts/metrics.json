@@ -1,0 +1,126 @@
+{
+  "metrics": {
+    "Adware": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "Backdoor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "Generic": {
+      "precision": 0.44,
+      "recall": 0.4583333333333333,
+      "f1-score": 0.4489795918367347,
+      "support": 48.0
+    },
+    "Miner": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "RAT": {
+      "precision": 0.4126984126984127,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5098039215686274,
+      "support": 39.0
+    },
+    "Ransomware": {
+      "precision": 0.8947368421052632,
+      "recall": 0.8252427184466019,
+      "f1-score": 0.8585858585858587,
+      "support": 103.0
+    },
+    "Spyware": {
+      "precision": 0.3333333333333333,
+      "recall": 0.07142857142857142,
+      "f1-score": 0.11764705882352941,
+      "support": 14.0
+    },
+    "Stealer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "Trojan": {
+      "precision": 0.7857142857142857,
+      "recall": 0.6929133858267716,
+      "f1-score": 0.7364016736401674,
+      "support": 127.0
+    },
+    "Worm": {
+      "precision": 0.16129032258064516,
+      "recall": 0.1724137931034483,
+      "f1-score": 0.16666666666666669,
+      "support": 29.0
+    },
+    "accuracy": 0.606951871657754,
+    "macro avg": {
+      "precision": 0.302777319643194,
+      "recall": 0.28869984688053935,
+      "f1-score": 0.2838084771121584,
+      "support": 374.0
+    },
+    "weighted avg": {
+      "precision": 0.6377083773778072,
+      "recall": 0.606951871657754,
+      "f1-score": 0.6146286670931743,
+      "support": 374.0
+    }
+  },
+  "labels": [
+    "Ransomware",
+    "Trojan",
+    "Miner",
+    "Generic",
+    "Worm",
+    "Backdoor",
+    "Adware",
+    "RAT",
+    "Spyware",
+    "Stealer"
+  ],
+  "original_class_distribution": {
+    "Ransomware": 514,
+    "Trojan": 638,
+    "Miner": 13,
+    "Generic": 230,
+    "Worm": 144,
+    "Backdoor": 8,
+    "Adware": 16,
+    "Jaik.Generic": 8,
+    "RAT": 195,
+    "Spyware": 70,
+    "Stealer": 34
+  },
+  "simplified_class_distribution": {
+    "Ransomware": 514,
+    "Trojan": 638,
+    "Miner": 13,
+    "Generic": 238,
+    "Worm": 144,
+    "Backdoor": 8,
+    "Adware": 16,
+    "RAT": 195,
+    "Spyware": 70,
+    "Stealer": 34
+  },
+  "final_class_distribution": {
+    "Ransomware": 514,
+    "Trojan": 638,
+    "Miner": 13,
+    "Generic": 238,
+    "Worm": 144,
+    "Backdoor": 8,
+    "Adware": 16,
+    "RAT": 195,
+    "Spyware": 70,
+    "Stealer": 34
+  }
+}
