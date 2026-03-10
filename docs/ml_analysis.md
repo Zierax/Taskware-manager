@@ -1,4 +1,3 @@
-```markdown
 # Machine Learning Syscall Analysis
 
 The Machine Learning (ML) module in Taskware Manager provides advanced behavioral analysis by monitoring raw system calls (syscalls) made by a process. This allows for the detection of malicious activity that might bypass traditional signature-based scanners.
@@ -31,5 +30,5 @@ To update or replace the default model:
 
 ---
 
-**Reference Model**: [Malware-LinuxTypes-Detector-M](https://github.com/Zierax/Malware-LinuxTypes-Detector-M)
-```
+**Reference Model**: [Malware-LinuxTypes-Detector-ML](https://github.com/Zierax/Malware-LinuxTypes-Detector-ML)
+
